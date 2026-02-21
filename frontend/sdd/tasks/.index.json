@@ -1,0 +1,62 @@
+{
+  "feature": "ui-lyriahandler",
+  "spec": "sdd/specs/ui-lyriahandler.spec.md",
+  "created_at": "2026-02-20T00:00:00Z",
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "slug": "lyria-types",
+      "title": "Define Lyria TypeScript types",
+      "status": "in-progress",
+      "priority": "high",
+      "effort": "S",
+      "depends_on": [],
+      "assigned_to": "current-session",
+      "file": "sdd/tasks/active/TASK-001-lyria-types.md"
+    },
+    {
+      "id": "TASK-002",
+      "slug": "lyria-api-client",
+      "title": "Implement Lyria API client",
+      "status": "pending",
+      "priority": "high",
+      "effort": "S",
+      "depends_on": ["TASK-001"],
+      "assigned_to": null,
+      "file": "sdd/tasks/active/TASK-002-lyria-api-client.md"
+    },
+    {
+      "id": "TASK-003",
+      "slug": "music-player",
+      "title": "Implement MusicPlayer component",
+      "status": "pending",
+      "priority": "high",
+      "effort": "S",
+      "depends_on": ["TASK-001"],
+      "assigned_to": null,
+      "file": "sdd/tasks/active/TASK-003-music-player.md"
+    },
+    {
+      "id": "TASK-004",
+      "slug": "music-generator-form",
+      "title": "Implement MusicGeneratorForm component",
+      "status": "pending",
+      "priority": "high",
+      "effort": "M",
+      "depends_on": ["TASK-001", "TASK-002"],
+      "assigned_to": null,
+      "file": "sdd/tasks/active/TASK-004-music-generator-form.md"
+    },
+    {
+      "id": "TASK-005",
+      "slug": "page-route",
+      "title": "Create /music-generator page route",
+      "status": "pending",
+      "priority": "high",
+      "effort": "M",
+      "depends_on": ["TASK-002", "TASK-003", "TASK-004"],
+      "assigned_to": null,
+      "file": "sdd/tasks/active/TASK-005-page-route.md"
+    }
+  ]
+}
